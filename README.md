@@ -1,5 +1,5 @@
 # YOLO Dynamic ORB_SLAM 
-## (ROS Wrapper by ntut108318099- see below )
+## (ROS Wrapper by ntut108318099)
 (from: https://github.com/bijustin/YOLO-DynaSLAM/issues/3 )
 
 YOLO Dynamic ORB_SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
