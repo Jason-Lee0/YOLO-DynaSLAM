@@ -1,5 +1,5 @@
 # YOLO Dynamic ORB_SLAM 
-# (ROS Wrapper by jasonlee)
+## (ROS Wrapper by jasonlee)
 
 YOLO Dynamic ORB_SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
 See our other repository for related work: https://github.com/bijustin/Fast-Dynamic-ORB-SLAM/
@@ -68,9 +68,9 @@ Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [DynaSL
   ./build_ros.sh
   ```
 
-**Only release code for RGB-D camera. If you need the code with the other diveces,you could ask me or refer the ros-rgbd.cc to modify**
-**I ran the code with opencv3.4.4,and it worked.**
+**Only release code for RGB-D camera. If you need the code with the other diveces,you could ask me or refer the ros-rgbd.cc to modify.**
 
-If you used other version of opencv,you need to change the line in CMakeLists.
+*BTW,I ran the code with opencv3.4.4,and it worked.
+If you used other version of opencv,you need to change the line in CMakeLists.*
 
 
