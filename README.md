@@ -1,5 +1,5 @@
 # YOLO Dynamic ORB_SLAM 
-## (ROS Wrapper by jasonlee)
+## (ROS Wrapper by ntut108318099)
 
 YOLO Dynamic ORB_SLAM is a visual SLAM system that is robust in dynamic scenarios for RGB-D configuration.
 See our other repository for related work: https://github.com/bijustin/Fast-Dynamic-ORB-SLAM/
@@ -54,7 +54,7 @@ Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [DynaSL
 
 # YOLO Dynamic ORB_SLAM
 
-# YOLO_Dynamic_ROS (by jasonlee)
+# YOLO_Dynamic_ROS (by ntut108318099)
 1. Add the path including *Examples/ROS/YOLO_DynaSLAM* to the ROS_PACKAGE_PATH environment variable. Open .bashrc file and add at the end the following line. Replace PATH by the folder where you cloned ORB_SLAM2:
 
   ```
