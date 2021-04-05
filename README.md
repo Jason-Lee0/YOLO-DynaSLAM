@@ -56,13 +56,14 @@ Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [DynaSL
 # YOLO Dynamic ORB_SLAM
 
 # YOLO_Dynamic_ROS (by ntut108318099)
-1. Add the path including *Examples/ROS/YOLO_DynaSLAM* to the ROS_PACKAGE_PATH environment variable. Open .bashrc file and add at the end the following line. Replace PATH by the folder where you cloned ORB_SLAM2:
+1. Be sure YOLO-DynaSLAM could run.
+2. Add the path including *Examples/ROS/YOLO_DynaSLAM* to the ROS_PACKAGE_PATH environment variable. Open .bashrc file and add at the end the following line. Replace PATH by the folder where you cloned ORB_SLAM2:
 
   ```
   export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/YOLO-DynaSLAM/Examples/ROS
   ```
   
-2. Execute `build_ros.sh` script:
+3. Execute `build_ros.sh` script:
 
   ```
   chmod +x build_ros.sh
@@ -81,6 +82,9 @@ For an RGB-D input from topics `/camera/rgb/image_raw` and `/camera/depth_regist
   ```
   rosrun YOLO_DynaSLAM RGBD PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE
   ```
+**It need to run the command at your <YOLO_DynaSLAM> folder,or it will fail to detect yolov3.cfg and yolov3.weight.**
+
+**(To avoid it ,you could change the line 23,24 of yolo.cc)**
 
 # Suggestion:
 
