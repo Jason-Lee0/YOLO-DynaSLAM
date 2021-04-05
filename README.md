@@ -73,4 +73,19 @@ Our code builds on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [DynaSL
 *BTW,I ran the code with opencv3.4.4,and it worked.
 If you used other version of opencv,you need to change the line in CMakeLists.*
 
+# Run ROS-rgbd node:
+
+For an RGB-D input from topics `/camera/rgb/image_raw` and `/camera/depth_registered/image_raw`, run node ORB_SLAM2/RGBD. You will need to provide the vocabulary file and a settings file. See the RGB-D example above.
+
+  ```
+  rosrun YOLO_DynaSLAM RGBD PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE
+  ```
+
+# Suggestion:
+
+## If you want to use another image topic: 
+    when you change the subscribe topics, you must rebuild the code (./build_ros.sh).
+    
+## Run TUM-Dataset rosbag no result: 
+    You can change the TUM*.yaml you called. Change the  `DepthMapFactor` value to  `1.0` . 
 
